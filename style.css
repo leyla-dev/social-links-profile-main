@@ -1,0 +1,110 @@
+@font-face {
+  font-family: Inter-VariableFont;
+  src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+  font-family: Inter-Bold;
+  src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: Inter-Regular;
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter-Regular, serif";
+  font-size: 14px;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.card {
+  width: 385px;
+  color: #fff;
+  padding: 40px;
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+  border-radius: 15px;
+}
+.card img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.card .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.card-header p {
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.card .subtitle {
+  color:hsl(75, 94%, 57%);
+  font-weight: 700;
+  padding: 10px;
+}
+
+.list-group {
+list-style: none;
+margin-top: 20px;
+}
+
+.list-item {
+  background-color: hsl(0, 0%, 20%);
+  padding: 12px;
+  margin:12px;
+  border-radius: 8px;
+}
+
+.list-item a {
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    font-family: Inter-SemiBold, serif;
+    font-weight: 7000;
+    
+}
+
+.list-item:hover {
+ background-color: hsl(75, 94%, 57%);
+ transition: 1s;
+}
+
+.list-item:hover a{
+  color: hsl(0, 0%, 8%)
+}
